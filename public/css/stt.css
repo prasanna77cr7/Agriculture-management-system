@@ -1,0 +1,57 @@
+
+.btn{
+  width: 20%;
+  background: #CD6155;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn1{
+  width: 20%;
+  background: #8E44AD;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 40px;
+  border-radius: 10px;
+}
+.btn2{
+  width: 20%;
+  background: #2E86C1;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 40px;
+  border-radius: 10px;
+}
+.btn3{
+  width: 20%;
+  background: #F39C12;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  padding: 40px;
+  border-radius: 10px;
+}

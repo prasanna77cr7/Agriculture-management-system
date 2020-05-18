@@ -1,0 +1,25 @@
+ 
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>
+  add
+  </title> 
+  <link type="text/css" rel="stylesheet" href="/css/st.css">
+  </head>
+  <body>     
+  <h1><center>Add Your Details <%=username%></center></h1>
+  <div class="container"> 
+         <form action="/add" method="POST" class="signup-form">
+            <input type="text" name="state" placeholder="Place" class="input"><br />
+            <input type="text" name="dist" placeholder="District" class="input"><br />
+            <input type="text" name="land" placeholder="Land in Acres" class="input"><br />
+            <input type="text" name="culti" placeholder="Types of Crop" class="input"><br />
+              <input type="text" name="profit" placeholder="Annual Income" class="input"><br />
+            <input type="text" name="pno" placeholder="Mobile Number" class="input"><br />
+            <textarea name="problem" placeholder="Enter Your Problem" rows="4" cols="50" class="input"></textarea>
+        <button type="submit" name="submit" class="btn"><span> Submit</span></button>
+         </form>
+  </div>
+   </body>
+  </html>

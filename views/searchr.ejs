@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Search
+</title> 
+<link type="text/css" rel="stylesheet" href="/css/st.css">
+</head>
+<body class="srcd1">
+    <% for(var i=0;i<uname.length;i++){ %>
+    <table><tr><td>
+        <b>Username:</b></td><td><%=uname[i].name%></td></tr><br>
+        <tr><td><b>District: </b></td><td><%=uname[i].data.state%>, <%=uname[i].data.dist%></td></tr><br>
+        <tr><td><b>Cultivation: </b></td><td><%=uname[i].data.cuktivation%></td></tr><br>
+        <tr><td><b>Land: </b></td><td><%=uname[i].data.land%> acres</td></tr><br>
+        <tr><td><b>Annual Income</b></td><td><%=uname[i].data.profit%> per year</td></tr><br>
+        <tr><td><b>Problems Facing: </b></td><td><%=uname[i].data.problem%></td></tr><br>
+        <tr><td><b>Contact:</b></td><td><%=uname[i].data.mobile%></td></tr><br>
+        </table>
+        <% }%>
+</body>
+</html>

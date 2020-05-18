@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head>
+<title>crop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="/css/st.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body{
+    background-image: url("/images/so.jpg");
+    height: 655px;
+  }
+</style>
+</head><body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">
+Menu</h3>
+  <a href="/home" class="w3-bar-item w3-button">Home</a>
+  <a href="/search" class="w3-bar-item w3-button">Search</a>
+ <a href="/contact" class="w3-bar-item w3-button">Contact Us</a>
+ <a href="/help" class="w3-bar-item w3-button">Help</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1><center>Crop Suggestions</center></h1>
+</div>
+
+<div class="w3-container hrs">
+ <form  action="/soil" method="POST" class="signup-form">
+               <h1 style="text-align: center ;color: #fff";>Select Soil Type</h1>
+ 		<div style="padding-left:300px;padding-bottom:20px;">
+			<select name="soil" style="text-align: center;padding-left:150px; width:400px; height:50px;"><div>
+			<option value="alluvial" name="alluvial">Alluvial Soil</option>
+			<option value="black" name="black">Black Soil</option>
+			<option value="red">Red Soil</option>
+			<option value="alkaline">Alkaline soil</option></div>
+			</select><br />
+		</div>
+            
+                   
+           <button type="submit" name="submit" style="background:#3498DB;border-radius:2px;color:#fff;text-align:center;width:400px;height:50px;padding-top:10px;margin-left:300px;">SUBMIT</button>
+       </form>
+
+      </body>
+</html>
